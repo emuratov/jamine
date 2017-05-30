@@ -5,6 +5,11 @@ body {
 	margin:0;
 	padding: 0;
 }
+.line{
+	width: 100vh;
+	height: 1px;
+	color: gray;
+}
 /*navigation*/
 .navigation {
 	width: 100wh;
@@ -22,7 +27,41 @@ body {
 	text-decoration: none;
 	color: black;
 }
+
+.navLi li{
+	display: inline-block;
+	padding-top: 2.5rem; 
+	margin-left: 3em;
+}
+.navLi a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+.navLi a:hover {
+	text-decoration: overline;
+	color: red;
+}
+
+
+.aCatalog{
+	display: inline-block;
+	padding-top: 2.5rem;
+	font-size: 1,5rem;	
+}
+.aCatalog a{
+	text-decoration: none;
+	color: black;
+	border: 1.4px solid black;
+	border-radius: 0.3rem;
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+}
+.aCatalog a:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
 .top{
-	background-color: gray;
+	background-color: green;
 	height: 80vh;
 }
