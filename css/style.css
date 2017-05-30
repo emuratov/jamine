@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/*global*/
+body {
+	font-family: 'Merriweather', serif;
+	margin:0;
+	padding: 0;
+}
+/*navigation*/
+.navigation {
+	width: 100wh;
+	height: 7rem;
+}
+.nav {
+	display: inherit;	
+	width: 70%;
+}
+.navLogo {
+	padding-top: 1rem;
+	font-size: 4rem;
+}
+.navLogo a{
+	text-decoration: none;
+	color: black;
+}
+.top{
+	background-color: gray;
+	height: 80vh;
+}
