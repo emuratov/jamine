@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 /*global*/
 body {
-	font-family: 'Merriweather', serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	margin:0;
 	padding: 0;
+	background-color: #EEEEEE;
 }
 .line{
 	width: 100vh;
@@ -25,13 +26,13 @@ body {
 }
 .navLogo a{
 	text-decoration: none;
-	color: black;
+	color: #F79E96;
 }
 
 .navLi li{
 	display: inline-block;
 	padding-top: 2.5rem; 
-	margin-left: 3em;
+	margin-left: 1em;
 }
 .navLi a{
 	text-decoration: none;
@@ -62,6 +63,95 @@ body {
 }
 
 .top{
-	background-color: green;
+	padding-top: 2rem;
 	height: 80vh;
+}
+.topSlider{
+	display: inherit;
+	overflow:hidden;
+	height: 75vh;
+	width: 100wh;	
+}
+.topSlider img{
+	display: inline-block;
+	height: 75vh;	
+	text-align: right;
+	padding-right: 0;
+	padding-left: 0;
+}
+.topSlider section{
+	margin-top: 10rem;
+	display: inline-block;
+	height: 75vh;
+	width: 50rem;
+	padding-left: auto;
+}
+.topSlider h1, h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
+	line-height: 4rem;
+}
+.topSlider h2{
+	margin-top: 5rem;
+	font-size: 1.5rem;
+}
+.sliderMidle{
+	overflow:hidden;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	height: 50vh;
+}
+.sliderMidle img{
+	height: 50vh;
+	padding-right: 1rem;	
+}
+
+.instagramm{
+	height: 60vh;
+}
+.instagramm a{
+	height: 60vh;
+	font-size: 4rem;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.instagrammText{
+	text-align: center;
+	height: 60vh;
+	padding-top: 25rem;
+	padding-left: auto;
+}
+.about{
+	height: 50vh;
+}
+.contacts{
+	height: 40vh;
+	width: 100%;
+}
+.contacts section{
+	display: inline-block;
+}
+.contacts h1{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+.contacts i{
+	font-size: 4rem;
+	text-align: center;
+	margin: 1rem;
+	margin-right: 5rem;
+}
+.contacts a{
+	text-decoration: none;
+	color: black;
+}
+.footer{
+	height: 40vh;
+	width: 100%;
+	background-color: gray;
 }
