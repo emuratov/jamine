@@ -126,14 +126,24 @@ body {
 .about{
 	height: 50vh;
 }
+.about h1,h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.about ul{
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 .contacts{
 	height: 40vh;
 	width: 100%;
 }
 .contacts section{
-	display: inline-block;
+	display: block;
+	text-align: center;
 }
-.contacts h1{
+.contacts h1, h2{
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 3rem;
@@ -144,11 +154,11 @@ body {
 	font-size: 4rem;
 	text-align: center;
 	margin: 1rem;
-	margin-right: 5rem;
 }
 .contacts a{
 	text-decoration: none;
 	color: black;
+	text-align: center;
 }
 .footer{
 	height: 40vh;
