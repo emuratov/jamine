@@ -107,6 +107,41 @@ body {
 	padding-right: 1rem;	
 }
 
+.newCollection{
+	height: 60vh;
+	width: 100%;
+}
+
+.newCollection h1{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.newCollection img{
+	display: inline-block;
+	height: 50vh;
+	padding: 2rem;
+	-webkit-filter: grayscale(100%);
+  	-moz-filter: grayscale(100%);
+  	-ms-filter: grayscale(100%);
+  	-o-filter: grayscale(100%);
+  	filter: grayscale(100%);
+  	filter: gray; /* IE 6-9 */
+
+	 -webkit-transition: all 0.5s;
+  	-moz-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+  	transition: all 0.5s;
+}
+.newCollection img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+}
+
 .instagramm{
 	height: 60vh;
 }
@@ -160,8 +195,30 @@ body {
 	color: black;
 	text-align: center;
 }
+
+.dowmCatalog{
+	text-align: center;
+	padding-top: 2.5rem;
+	font-size: 1,5rem;	
+}
+.dowmCatalog a{
+	text-decoration: none;
+	color: black;
+	border: 1.4px solid black;
+	border-radius: 0.3rem;
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+}
+.dowmCatalog a:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
 .footer{
-	height: 40vh;
 	width: 100%;
 	background-color: gray;
+}
+.footer section{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align: center;
 }
